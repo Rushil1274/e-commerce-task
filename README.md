@@ -33,6 +33,8 @@
         py -3.10 -m venv venv
         source venv/bin/activate  # On Windows: venv\Scripts\activate
         pip install -r requirements.txt
+        pip install --upgrade flask
+        pip install --upgrade flask-sqlalchemy
         python app.py
         </code>
     </pre>
